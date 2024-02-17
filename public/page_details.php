@@ -34,7 +34,6 @@ $vehicles = $stmt->fetchAll();
                 <h1><?php echo htmlspecialchars($vehicle['make']);?></h1>
                 <p class="price"><?php echo htmlspecialchars($vehicle['price']);?></p>
                 <p class="description"><?php echo htmlspecialchars($vehicle['description']);?></p>
-                <button type="button" class="btn btn-primary">Add to Cart</button>
             </div>
         </div>
     </div>
