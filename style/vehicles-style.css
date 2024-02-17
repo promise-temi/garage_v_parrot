@@ -1,0 +1,88 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Open Sans';
+    background-color: #f8f9fa;
+    color: #333; 
+}
+
+.section-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/image-header-vehicles.png") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header h1 {
+    color: #fff;
+    font-size: 2.5rem; 
+    text-shadow: 2px 2px 4px #000;
+}
+
+
+nav,
+.form,
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.vehicules .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s; 
+}
+
+.vehicules .card:hover {
+    transform: translateY(-5px); 
+}
+
+.vehicules .card-img-top {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+}
+
+.vehicules .card-body {
+    padding: 15px;
+    text-align: center; 
+}
+
+.vehicules .card-text p {
+    margin-bottom: 10px;
+    color: #555; 
+}
+
+
+button,
+input[type="submit"] {
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
+
+@media (max-width: 768px) {
+    .section-header h1 {
+        font-size: 1.75rem; 
+    }
+}
+
+

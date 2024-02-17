@@ -1,0 +1,174 @@
+body{
+    overflow-x: hidden;
+}
+
+p{
+    font-family: 'Open Sans';
+}
+
+button{  
+    width: 188px;
+    height: 47px;
+    background-image: linear-gradient(to right,#D50000 ,#B20000);
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+
+button:hover{
+    background-image: linear-gradient(to right,#910000 ,#910000) !important;
+}
+
+h4,h5,h6{
+    color: #A5ACAF;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+h1,h2,h3{
+color: #003366 ;
+font-size: 24px;
+font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Condensed';
+}
+
+.section-header{
+    background-image: url("../images/image-header-home.png");
+    height: 500px;
+    background-size: cover;
+}
+
+.header-card{
+    width: 340px;
+    height:330px;
+    background-color: #E1F4FF;
+    float: right;
+    margin-right: 150px;
+    margin-top: 230px;
+    line-height: 17px;
+    padding-top: 20px;
+}
+
+.header-card h3{
+    color: #003366;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-card .horraire{
+    margin-left: 80px;
+}
+
+
+
+.arguments{
+    margin:80px;
+    margin-top: 90px;
+}
+.arguments img{
+    width: 484px;
+    height: 280px;
+}
+
+.arguments h3{
+    font-size: 28px;
+    color: #003366;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.arguments p{
+    line-height: 35px;
+}
+
+.argument1{
+    margin-bottom: 50px;
+}
+
+.argument1 div{
+    margin-left:50px;
+}
+
+.argument2 div{
+    margin-right:50px;
+}
+.argument div{
+    margin-top: 50px;
+}
+.argument{
+    display: flex;
+}
+
+
+
+
+.section-direc{
+    background-color: #5A729E;
+    height: auto !important;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px;
+    gap:10px;
+}
+
+.section-direc div{
+ width: 320px;
+ height: 450px;
+ background-color: #F2F2F2;
+ padding: 30px;
+ padding-top: 50px;
+ 
+display: grid;
+}
+
+.section-direc button{
+  align-self: end;  
+  width: 188px;
+  height: 47px;
+  background-image: linear-gradient(to right,#D50000 ,#B20000);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.section-direc h2{
+    color: #003366 ;
+font-size: 24px;
+font-weight: bold;
+}
+.section-direc p{
+    line-height: 40px;
+}
+
+
+.reviews{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.reviews h3{
+    color: #003366 ;
+    font-size: 24px ;
+    font-weight: bold ;
+}
+
+.reviews h5{
+    color: #757677;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.review{
+    padding-top: 30px;
+}
+
+.review svg{
+    color: #337db9;
+}
