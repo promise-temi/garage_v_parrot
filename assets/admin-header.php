@@ -83,7 +83,7 @@ body, html {
           <a class="nav-link" href="add_services.php">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="admin_vehicles.php">Reviews</a>
+          <a class="nav-link" href="admin_vehicles.php">Véhicules</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="update_hours.php">Hours</a>

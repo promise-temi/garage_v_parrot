@@ -46,8 +46,8 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #f8f9fa; /* Fond légèrement gris pour un look subtil */
-    color: #333; /* Texte gris foncé pour une meilleure lisibilité */
+    background-color: #f8f9fa; 
+    color: #333; 
 }
 
 .section-header {
@@ -61,13 +61,13 @@ body {
 
 .section-header h1 {
     color: #fff;
-    font-size: 2.5rem; /* 40px */
+    font-size: 2.5rem; 
     text-shadow: 2px 2px 4px #000;
 }
 
-/* Style des cartes de véhicules */
+
 .vehicules .card {
-    border: none; /* Suppression de la bordure par défaut */
+    border: none;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ombre discrète pour la profondeur */
     transition: transform 0.2s; /* Transition fluide au survol */
 }
@@ -184,7 +184,7 @@ button:hover, input[type="submit"]:hover {
                 <p>Année : <?php echo htmlspecialchars($vehicle['year']); ?> km</p>
                 <p>Kilométrage : <?php echo htmlspecialchars($vehicle['mileage']); ?> km</p>
                 <p>Prix : <?php echo htmlspecialchars($vehicle['price']); ?> €</p>
-                <p>Description : <?php echo htmlspecialchars($vehicle['description']); ?></p>
+                
             
             </div>
                   
